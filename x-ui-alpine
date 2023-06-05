@@ -46,8 +46,8 @@ echo -e "${yellow}注意：安装完成x-ui，修改用户名时直接回车，�
 echo -e "${red}注意：安装完成x-ui，修改用户名时直接回车，不用理会错误"
 echo -e "${yellow}注意：安装完成x-ui，修改用户名时直接回车，不用理会错误"
 echo -e "${red}注意：安装完成x-ui，修改用户名时直接回车，不用理会错误"
-bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
-
+echo -e "bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)"
+bash <(curl -Ls https://gitlab.com/rwkgyg/x-ui-yg/raw/main/install.sh)
 
 
 #/usr/local/x-ui/x-ui setting -username admin -password admin -port 9000
